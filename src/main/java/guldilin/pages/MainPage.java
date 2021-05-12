@@ -45,7 +45,7 @@ public class MainPage {
     public static final String CATEGORY_HUMOUR_XPATH =      "/html/body/div[1]/div[5]/div[2]/div[1]/div/div[2]/div/span/span[1]/span[1]/span[2]/span[3]/span[7]";
 
     public static final String SEARCH_INPUT_XPATH =      "/html/body/div[1]/div[5]/div[2]/div[1]/div/div[2]/div/span/span[2]/span[3]/span/form/span[1]/span[1]/input";
-    public static final String FIRST_QUESTION_XPATH =      "/html/body/div[2]/div[3]/div[2]/div/div/div[1]/div/div[2]/div[2]/div[1]";
+    public static final String FIRST_QUESTION_XPATH =      "/html/body/div[2]/div[3]/div[2]/div/div/div[1]/div/div[2]/div[1]/div[1]/div/div[2]/div[2]/a";
     public static final String ADULT_BANNER_XPATH =      "/html/body/div[2]/div[1]/div[14]/div/div/div[2]/div";
     public static final String FIRST_QUESTION_FOUND_XPATH =      "/html/body/div[2]/div[3]/div[2]/div/div/div/div[2]/div[4]/div[1]/div[2]/div[2]/div[1]/a";
 

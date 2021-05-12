@@ -44,11 +44,12 @@ public class QuestionsTest {
     }
 
     @Test
-    public void openFirstQuestion() {
+    public void openFirstQuestion() throws InterruptedException {
         driver.get(MainPage.PAGE_URL);
         wait.until(presenceOfElementLocated(By.xpath(FIRST_QUESTION_XPATH)));
         String initialUrl = driver.getCurrentUrl();
         mainPage.getFirstQuestion().click();
+        Thread.sleep(1000);
         assertNotEquals(initialUrl, driver.getCurrentUrl());
     }
 }
